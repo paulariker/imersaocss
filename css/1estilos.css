@@ -1,42 +1,29 @@
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
-  body{
-    background-image: url('../img/background.jpg');
-
+body{
+    background-image: url('https://mcdn.wallpapersafari.com/medium/55/73/ghY4rc.jpg');
     font-family: Verdana;
     background-size: auto 100vh;
     height: 100vh;
     backdrop-filter: blur(4px);
   }
-header{
-  height: 100vh;
-  display: flex;
-  justify-content: center;
-  align-items: center
-}
+  
   .menu{
     background-color: #473461;
-    position: fixed;
-    width: 100vh;
   }
   a {
     text-decoration: none; 
-    color: teal; 
+    color: teal;
   }
   a:hover {
     text-decoration: underline;
   }
   .menu li {
-    list-style: none;   
+    list-style: none   
   }
   .menu ul {
     display: flex;
     justify-content: space-around
   }
+  
   .site-title {
     text-align: center;
     color: #160c49;
@@ -45,8 +32,4 @@ header{
     text-align: center;
     color: #160c49;
     text-decoration: underline
-  }
- .img-portfolio{
-   line-height: 180px;
-   width: 180px;
   }
